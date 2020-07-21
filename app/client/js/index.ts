@@ -8,7 +8,7 @@ namespace Main.IndexPage {
 	$(function () {
 		$("#form").hide();
 		// 북마크 등록 버튼 클릭시 등록 창 토글
-		$("#openFrom").on("click", function () {
+		$("#openForm").on("click", function () {
 			if ($("#form").is(":visible")) {
 				// 등록 창이 표시 상태면 북마크 목록 표시
 				$("#item-list").show();
