@@ -24,6 +24,8 @@ export class Index extends BaseRoute {
 			listHTML: listHTML,
 		};
 		this.render(req, res, "index", options);
+		// 서버에서 렌더링 수행, 서버에서 렌더링 해 출력할 템플릿으로 index 템플릿 설정
+		// index 템플릿 => ejs 템플릿의 파일명
 	}
 
 	public add(req: Request, res: Response, next: NextFunction) {
