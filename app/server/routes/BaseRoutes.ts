@@ -14,7 +14,7 @@ export class BaseRoute {
 	}
 
 	// 서버에 클라이언트에게 응답 시 렌더링 방법
-	public redner(req: Request, res: Response, view: string, option?: Object) {
+	public render(req: Request, res: Response, view: string, option?: Object) {
 		// 기본 URL 주소를 설정
 		res.locals.BASE_URL = "/";
 		// 스크립트를 추가
