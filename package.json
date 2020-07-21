@@ -1,0 +1,11 @@
+{
+  "name": "tsc_bookmark_app",
+  "version": "1.0.0",
+  "description": "1. 타입스크립트 퀵스타트 교재 15장의 애플리케이션 제작 실습",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
